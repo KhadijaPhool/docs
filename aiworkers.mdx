@@ -6,6 +6,27 @@ description: 'Welcome to the home of your new documentation'
 General Purpose Language Models has become an incredible powerfull tool in order to **solve and automate arbitrary user tasks**. However, they are not enough by their own. In order to build fully working AI sytems that can perform actions in the real world some kind of orquestration has to be done. We called this orquestration of technologies and tools: **AI Workers**. 
 
 ## What do AI workers consist of?
+
+
+<CardGroup cols={2}>
+  <Card title="Language Models" icon="square-1">
+    AI workers are powered by LLMs. This is where they obtain reasoning capabilities and knowledge. Our design is abstract and agnostic meaning that we are not coupled with any solutions or LLM providers. For instance, as long as the model support function tooling, AI workers can be powered by different LLMs like GPT4 or Mixtral.
+  </Card>
+  <Card title="Integrations" icon="square-2">
+    This are third party services and applications. Integrations allow connectivity between AI workers and external services therefore extending the workers capabilities. Integrations refer just to the connectivity and the configuration of this services. This configuration may include sensible data like credentials which will not in any case be included in the context window of LLMs.
+  </Card>
+  <Card title="Knowledge" icon="square-3">
+    All the documentation that the worker has access to (PDFs, TXTs, Excels etc). Queried by RAG systems or accessed individually. This include traditional documents and vector stores. Usually accessed via retrieval systems.
+  </Card>
+  <Card title="Tools" icon="square-4">
+    Tools enable real world interaction and narrow arbitrary tasks into more manageable and contextualizable actions with predictable inputs and outputs. This tools lead to a more deterministic and traditional way of solving things allowing legacy tech to be easily used. This tools will usually require Integrations as the providers of connectivity and configuration.
+  </Card>
+</CardGroup>
+
+
+
+## What do AI workers consist of?
+
 **Language Models**: AI workers are powered by LLMs. This is where they obtain reasoning capabilities and knowledge. Our design is abstract and agnostic meaning that we are not coupled with any solutions or LLM providers. For instance, as long as the model support function tooling, AI workers can be powered by different LLMs like GPT4 or Mixtral. 
 
 **Integrations**: This are third party services and applications. Integrations allow connectivity between AI workers and external services therefore extending the workers capabilities. Integrations refer just to the connectivity and the configuration of this services. This configuration may include sensible data like credentials which will not in any case be included in the context window of LLMs. 

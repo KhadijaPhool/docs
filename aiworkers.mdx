@@ -35,23 +35,7 @@ General Purpose Language Models has become an incredible powerfull tool in order
   AI workers will be able to receive instructions and user's feedback through different channels. Usually in the form of a chat conversation. AI workers can be contacted via standard messaging apps like Whatsapp or Telegram or through a dedicated chat interface inyected on the user browser [Autoppia Browser Extension](). Each channel have different use cases and limitations.
 </Card>
 
-
-
-## What do AI workers consist of?
-
-**Language Models**: AI workers are powered by LLMs. This is where they obtain reasoning capabilities and knowledge. Our design is abstract and agnostic meaning that we are not coupled with any solutions or LLM providers. For instance, as long as the model support function tooling, AI workers can be powered by different LLMs like GPT4 or Mixtral. 
-
-**Integrations**: This are third party services and applications. Integrations allow connectivity between AI workers and external services therefore extending the workers capabilities. Integrations refer just to the connectivity and the configuration of this services. This configuration may include sensible data like credentials which will not in any case be included in the context window of LLMs. 
-
-**Knowledge**: All the documentation that the worker has access to (PDFs, TXTs, Excels etc). Queried by RAG systems or accessed individually. This include traditional documents and vector stores. Usually accessed via retrieval systems. 
-
-**Tools**: Tools enable real world interaction and narrow arbitrary tasks into more manageable and contextualizable actions with predictable inputs and outputs. This tools lead to a more deterministic and traditional way of solving things allowing legacy tech to be easily used. This tools will usually require Integrations as the providers of connectivity and configuration. 
-
-**Memory**: Access to past interactions. This will allow for the improvement over time. This is usually implemented by finetunning the LLMs that power the worker but can be also implemented with RAG systems. This will be key for increasing the performace and reliability by introducing RLHF (Human feedback). 
-
-**Interfaces**:  Although tools are really powerfull they require specific technical development and connectivity that not always is possible. There will be times when to complete a task AI workers will need to use interfaces like computers, mobile devices, browsers, softwares etc to access functionality that otherwise will not be accesible. This approach is significantly more complex as we will be using human interfaces that have been developed specially for AI.
-
-**Communications channel**: AI workers will be able to receive instructions and user's feedback through different channels. Usually in the form of a chat conversation. AI workers can be contacted via standard messaging apps like Whatsapp or Telegram or through a dedicated chat interface inyected on the user browser [Autoppia Browser Extension](). Each channel have different use cases and limitations.
+<br/>
 
 <Note>Check out our dashboard to  deploy your first AI worker: [try it out!](https://app.autoppia.com)</Note>
 

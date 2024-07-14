@@ -63,9 +63,7 @@
         "autoppia-x-bittensor/overview",
         {
           "group": "Autoppia Validator",
-          "pages": [ 
-            "autoppia-validator/autoppia-validator",
-            "autoppia-validator/products-and-services"]
+          "pages": ["autoppia-validator/products-and-services"]
         },
         {
           "group": "Browser Assistance Subnet",

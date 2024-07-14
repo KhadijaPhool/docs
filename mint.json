@@ -68,10 +68,10 @@
         {
           "group": "Browser Assistance Subnet",
           "pages": [
-            "autoppia-validator/incentive-mechanism",
-            "autoppia-validator/request-generation",
-            "autoppia-validator/workflow-generation",
-            "autoppia-validator/workflow-evaluation"
+            "browser-assistance-subnet/incentive-mechanism",
+            "browser-assistance-subnet/request-generation",
+            "browser-assistance-subnet/workflow-generation",
+            "browser-assistance-subnet/workflow-evaluation"
 
           ]
 

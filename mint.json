@@ -58,6 +58,19 @@
       ]
     },
     {
+      "group": "AUTOPPIA X BITTENSOR",
+      "pages": [
+        "overview",
+        "Autoppia Validator",
+        {
+          "group": "Nested Reference Pages",
+          "pages": ["Products & Services"]
+        },
+        
+        "products"
+      ]
+    },
+    {
       "group": "Get Started",
       "pages": [
         "introduction",

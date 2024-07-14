@@ -62,8 +62,19 @@
       "pages": [
         "autoppia-x-bittensor/overview",
         {
-          "group": "AUTOPPIA Validator",
+          "group": "Autoppia Validator",
           "pages": ["autoppia-validator/products-and-services"]
+        },
+        {
+          "group": "Browser Assistance Subnet",
+          "pages": [
+            "autoppia-validator/incentive-mechanism",
+            "autoppia-validator/request-generation",
+            "autoppia-validator/workflow-generation",
+            "autoppia-validator/workflow-evaluation"
+
+          ]
+
         }
       ]
     },

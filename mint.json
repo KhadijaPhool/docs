@@ -63,10 +63,8 @@
         "autoppia-x-bittensor/overview",
         {
           "group": "AUTOPPIA Validator",
-          "pages": ["Products & Services"]
-        },
-
-        "autopia-validator/products"
+          "pages": ["autoppia-validator/products-and-services"]
+        }
       ]
     },
     {

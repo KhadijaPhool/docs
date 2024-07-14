@@ -60,14 +60,13 @@
     {
       "group": "AUTOPPIA X BITTENSOR",
       "pages": [
-        "overview",
-        "Autoppia Validator",
+        "autoppia-x-bittensor/overview",
         {
-          "group": "Nested Reference Pages",
+          "group": "AUTOPPIA Validator",
           "pages": ["Products & Services"]
         },
-        
-        "products"
+
+        "autopia-validator/products"
       ]
     },
     {

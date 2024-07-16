@@ -61,7 +61,7 @@
       "group": "AUTOPPIA X BITTENSOR",
       "pages": [
         "autoppia-x-bittensor/overview",
-        "autoppia-validator/auttopia-validator",
+        "autoppia-validator/autoppia-validator",
         {
           "group": "Browser Assistance Subnet",
           "pages": [

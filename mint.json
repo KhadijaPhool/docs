@@ -61,10 +61,7 @@
       "group": "AUTOPPIA X BITTENSOR",
       "pages": [
         "autoppia-x-bittensor/overview",
-        {
-          "group": "Autoppia Validator",
-          "pages": ["autoppia-validator/products-and-services"]
-        },
+        "autoppia-validator/auttopia-validator",
         {
           "group": "Browser Assistance Subnet",
           "pages": [
@@ -84,13 +81,7 @@
         "introduction",
         "quickstart",
         "development"
-      ],
-      "anchors": [
-      {
-        "name": "Documentation",
-        "icon": "book-open-cover",
-        "url": "https://mintlify.com/docs"
-      }]
+      ]
     },
     {
       "group": "Essentials",

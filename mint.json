@@ -46,6 +46,17 @@
       "name": "Blog",
       "icon": "newspaper",
       "url": "https://mintlify.com/blog"
+    },
+    {
+      "name": "X",
+      "icon": "x-twitter",
+      "url": "https://x.com/AutoppiaAI"
+    }
+    ,
+    {
+      "name": "Telegram",
+      "icon": "telegram",
+      "url": "https://x.com/AutoppiaAI"
     }
   ],
   "navigation": [

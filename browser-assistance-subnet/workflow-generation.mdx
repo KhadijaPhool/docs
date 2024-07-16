@@ -1,4 +1,33 @@
 ---
 title: Workflow Generation
-description: 'Welcome to the home of your new documentation'
+description: ''
 ---
+
+## Workflow Generation
+Workflow Generation is Miners duty! This mean miners will have to solve the request they receive together with the browser context associated with that request. We will provide a default Workflow Solution but this will only serve as guideline towards solving more complex workflows. 
+
+<Note>Miners will have to design their own workflow generation approach to successfully outcompete the rest of miners.</Note>
+
+## Task Definition
+Miner will receive a user request in an specific browser context. The browser context consist of the HTML in the moment of the request, the url, and a screenshot of the screen. User requests are arbitrariliy complex so miners will have to found the way to solve that request by executing "actions" in the browser. This secuence of actions is what we call a "Workflow". 
+
+## What is Workflow?
+Workflows are secuence of actions (steps) that when executed they lead to the completion of the user task. This simplification allow us to decompose complex tasks into smaller ones. This fits perfectly with the limited nature of Gen AI in terms of tokens and of reasoning.  Also, this allow us to track and observe where errors occur as we have make the problem discrete.
+
+When decomposing a task into smaller tasks what we are doing is to reduce the complexity but in a "languaje" oriented manner. Meaning that till this point is all "descriptions" of what have to be done. However, we need to actually create some kind of standarization that helps us to translate those descriptive steps into more specific actions that can be executed on a Browser environment. 
+
+To do this, we have create a list of possible actions that will try to represent most of typical actions that users do on a browser context. This actions allow us to reduce the complexity considerably and to have a more narrow objective: find a secuence of actions that resembles the "intention" of a specific workflow step. All this methods and techniques are not so different than what we humans do in our daily lives to solve problems (Obviolsy in a different scale and complexit).
+
+## Examples of actions
+
++ "click". inputs: [selector, coordinates]
+
++ "navigate". inputs: [target_url] 
+
++ "sleep". input: [seconds]
+
++ "fill_input". inputs: [selector, value]
+
++ key_down: inputs: [key]
+
+<Note>The more complex and elaborated this actions are the more development that will be neccesary on the execution phase and the easier the workflow generation phase will become. A classical trade off between simplicity and flexibility.</Note> 

@@ -54,7 +54,7 @@
       ]
     },
     {
-      "group": "AUTOPPIA X BITTENSOR",
+      "group": "AUTOPPIA & BITTENSOR",
       "pages": [
         "autoppia-x-bittensor/overview",
         "autoppia-x-bittensor/autoppia-validator",
@@ -88,8 +88,6 @@
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/AutoppiaAI",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "x": "https://x.com/AutoppiaAI"
   }
 }

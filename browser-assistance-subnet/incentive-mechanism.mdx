@@ -45,9 +45,10 @@ flowchart TD
     W(("Synthetic Feedback"))
     V("Bittensor")
     R("Request+Browser Context")
+    S("WorkFlow Generation")
 
 %% Edge connections between nodes
-    A --> B --> R --> C --> D --> E --> F --> X --> Y
+    A --> B --> R --> C --> S --> D --> E --> F --> X --> Y
     Z --> B
     D  --> I --> F --> W --> Y --> V
 

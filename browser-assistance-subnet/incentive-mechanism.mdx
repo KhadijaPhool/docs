@@ -35,7 +35,7 @@ flowchart TD
     A("Real Request")
     Z("Synthetic Prompts")
     B(("Miner"))
-    C(("WorkFlow Generation"))
+    C(("Workflow Generation"))
     D{"Validator"}
     E((User Browser))
     F{"WorkFlow Execution"}
@@ -45,7 +45,7 @@ flowchart TD
     W(("Synthetic Feedback"))
     V("Bittensor")
     R("Request+Browser Context")
-    S("WorkFlow Generation")
+    S("Workflow")
 
 %% Edge connections between nodes
     A --> B --> R --> C --> S --> D --> E --> F --> X --> Y

@@ -1,9 +1,9 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Autoppia Documentation",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logo/autoppia-lighy.png",
+    "light": "/logo/autoppia-dark.png"
   },
   "favicon": "/favicon.svg",
   "colors": {

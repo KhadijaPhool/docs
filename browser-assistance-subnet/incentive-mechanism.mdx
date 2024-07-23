@@ -44,9 +44,10 @@ flowchart TD
     I(("Virtual Browser"))
     W(("Synthetic Feedback"))
     V("Bittensor")
+    R("Request+Browser Context")
 
 %% Edge connections between nodes
-    A --> B --> C --> D --> E --> F --> X --> Y
+    A --> B --> R --> C --> D --> E --> F --> X --> Y
     Z --> B
     D  --> I --> F --> W --> Y --> V
 

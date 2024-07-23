@@ -2,8 +2,8 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "Autoppia Documentation",
   "logo": {
-    "dark": "/logo/autoppia-lighy.png",
-    "light": "/logo/autoppia-dark.png"
+    "dark": "/logo/autoppia-dark.png",
+    "light": "/logo/autoppia-light.png"
   },
   "favicon": "/favicon.svg",
   "colors": {

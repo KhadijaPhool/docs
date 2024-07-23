@@ -27,6 +27,53 @@ This pipeline whole purpose is to successfully solve arbitrary user requests on 
 <br/>
 
 
+<br/>
+
+```mermaid
+flowchart TD
+%% Nodes
+    A("Real Request")
+    Z("Synthetic Prompts")
+    B(("Miner"))
+    C(("WorkFlow Generation"))
+    D{"Validator"}
+    E((User Browser))
+    F{"WorkFlow Execution"}
+    X(("Human Feedback"))
+    Y(("Validator"))
+    I(("Virtual Browser"))
+    W(("Synthetic Feedback"))
+    V("Bittensor")
+
+%% Edge connections between nodes
+    A --> B --> C --> D --> E --> F --> X --> Y
+    Z --> B
+    D  --> I --> F --> W --> Y --> V
+
+%% Individual node styling. Try the visual editor toolbar for easier styling!
+    style A color:#FFFFFF, fill:#F34727
+    style Z color:#FFFFFF, fill:#16CDD4
+    style B color:#FFFFFF, fill:#1A1A1A
+    style C color:#FFFFFF, fill:#FAC711
+    style D color:#FFFFFF, fill:#1A1A1A
+    style F color:#FFFFFF, fill:#FAC711
+    style E color:#FFFFFF, fill:#F34727
+    style X color:#FFFFFF, fill:#F34727
+    style I color:#FFFFFF, fill:#16CDD4
+    style W color:#FFFFFF, fill:#16CDD4
+    style Y color:#FFFFFF, fill:#414BB2
+    style V color:#FFFFFF, fill:#1A1A1A
+
+
+
+    style E color:#FFFFFF, fill:#AA00FF, stroke:#AA00FF
+    style I color:#FFFFFF, stroke:#2962FF, fill:#2962FF
+
+%% You can add notes with two "%" signs in a row!
+
+```
+<br/>
+
 <Frame><img
   className="hidden dark:block"
   src="/images/incentive-mechanism-fc.png"
